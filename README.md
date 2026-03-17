@@ -1,7 +1,10 @@
 <p align="center">
+  
 # 🌱 **Smart Agriculture Recommendation System** 
 ### *Empowering Farmers with AI-Driven Insights for Sustainable Farming*
+
 </p>
+
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2E9C34&center=true&vCenter=true&width=600&lines=🌾+Intelligent+Crop+Recommendations;🧪+Smart+Fertilizer+Advisory;🍃+AI-Powered+Disease+Detection;📊+Data-Driven+Agriculture;🤖+Machine+Learning+for+Farming" alt="Typing SVG" />
 </p>
