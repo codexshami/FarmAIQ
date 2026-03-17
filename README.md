@@ -27,24 +27,24 @@
 ## 📋 Overview
 
 Smart Agriculture Recommendation System ek AI-based application hai jo farmers ko help karta hai:
-- 🌾 Best crop select karne me  
-- 🧪 Sahi fertilizer choose karne me  
-- 🍃 Plant disease detect karne me  
+-  Best crop select karne me  
+-  Sahi fertilizer choose karne me  
+-  Plant disease detect karne me  
 
 ---
 
 ## ✨ Key Features
 
-### 🌾 Crop Recommendation
+###  Crop Recommendation
 - Soil nutrients (N, P, K) analyze karta hai  
 - Weather conditions consider karta hai  
 - Best crop suggest karta hai  
 
-### 🧪 Fertilizer Advisory
+###  Fertilizer Advisory
 - Nutrient deficiency detect karta hai  
 - Suitable fertilizer recommend karta hai  
 
-### 🍃 Disease Detection
+###  Disease Detection
 - Leaf image se disease detect karta hai  
 - Treatment suggestions deta hai  
 
@@ -96,8 +96,43 @@ http://localhost:8501
 
 ## 📸 Screenshots
 
+## 📸 Screenshots
+
+###  Dashboard
 <p align="center">
-  <img src="images/home_dashboard.png" width="700"/>
+  <img src="img/dashboard.png" width="700"/>
+</p>
+
+###  Crop Recommendation
+<p align="center">
+  <img src="img/pred1.png" width="350"/>
+  <img src="img/pred2.png" width="350"/>
+</p>
+
+###  Plant Disease Analysis
+<p align="center">
+  <img src="img/leaf1.png" width="350"/>
+  <img src="img/leaf2.png" width="350"/>
+</p>
+
+###  Smart Fertilizer Suggestion
+<p align="center">
+  <img src="img/smartfert.png" width="700"/>
+</p>
+
+###  Weather Insights
+<p align="center">
+  <img src="img/weather.png" width="700"/>
+</p>
+
+### Statistics
+<p align="center">
+  <img src="img/stats.png" width="700"/>
+</p>
+
+###  AI Crop Detection
+<p align="center">
+  <img src="img/aicrop.png" width="700"/>
 </p>
 
 ---
@@ -131,5 +166,5 @@ Agar project pasand aaye to ⭐ star jarur dena!
 ---
 
 <p align="center">
-  Made with ❤️ for Farmers
+  Made with ❤️ by Codexshami
 </p>
