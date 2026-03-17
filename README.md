@@ -164,6 +164,211 @@ Our system leverages high-quality datasets from trusted sources to ensure accura
   - Soybean (1 disease)
 
 ---
+
+## 🧠 *Machine Learning Models*
+
+### *Model 1: Crop Recommendation - Random Forest Classifier*
+
+<p align="center">
+  <img src="images/rf_visualization.png" alt="Random Forest Visualization" width="500px">
+</p>
+
+#### *Architecture*
+- *Algorithm*: Random Forest Classifier
+- *Number of Trees*: 100
+- *Max Depth*: 10
+- *Criterion*: Gini Impurity
+- *Cross-Validation*: 5-fold
+
+#### *Input Parameters*
+| Parameter | Description | Range |
+|-----------|-------------|-------|
+| *Nitrogen (N)* | Essential for leaf growth | 0-140 kg/ha |
+| *Phosphorus (P)* | Root development promoter | 0-145 kg/ha |
+| *Potassium (K)* | Overall plant health | 0-205 kg/ha |
+| *Temperature* | Atmospheric temperature | 8-45°C |
+| *Humidity* | Relative humidity | 14-100% |
+| *pH Value* | Soil acidity/alkalinity | 3.5-10 |
+| *Rainfall* | Annual precipitation | 20-300 mm |
+
+### *Model 2: Disease Detection - Convolutional Neural Network (CNN)*
+
+<p align="center">
+  <img src="images/cnn_architecture.png" alt="CNN Architecture" width="700px">
+</p>
+
+#### *Architecture Details*
+
+Input Layer (224x224x3)
+    ↓
+Conv2D (32 filters, 3x3, ReLU) + MaxPooling (2x2)
+    ↓
+Conv2D (64 filters, 3x3, ReLU) + MaxPooling (2x2)
+    ↓
+Conv2D (128 filters, 3x3, ReLU) + MaxPooling (2x2)
+    ↓
+Conv2D (256 filters, 3x3, ReLU) + MaxPooling (2x2)
+    ↓
+Flatten
+    ↓
+Dense (512, ReLU) + Dropout (0.5)
+    ↓
+Dense (256, ReLU) + Dropout (0.3)
+    ↓
+Output Layer (38 classes, Softmax)
+
+
+#### *Training Configuration*
+- *Optimizer*: Adam (learning rate = 0.001)
+- *Loss Function*: Categorical Crossentropy
+- *Batch Size*: 32
+- *Epochs*: 50
+- *Validation Split*: 20%
+- *Data Augmentation*: Rotation, Zoom, Flip, Shift
+
+---
+
+## 📊 *System Architecture*
+
+<p align="center">
+  <img src="images/system_architecture.png" alt="System Architecture" width="900px">
+  <br>
+  <em>Figure 1: Complete System Architecture with Three Modules</em>
+</p>
+
+### *Workflow Explanation*
+
+#### *Module 1: Crop Recommendation Flow*
+
+User Input → Data Preprocessing → Random Forest Model → Crop Prediction → Display Result
+    ↑                    ↑                      ↑                    ↑
+Soil Parameters    Normalization          Trained Model        Cultivation Tips
+
+
+#### *Module 2: Fertilizer Advisory Flow*
+
+NPK Values → Deficiency Analysis → Fertilizer Mapping → Recommendation → Application Guide
+    ↑              ↑                      ↑                   ↑
+Soil Test    Compare with            Fertilizer           Dosage and
+             Optimal Ranges           Database             Timing
+
+
+#### *Module 3: Disease Detection Flow*
+
+Leaf Image → Preprocessing → CNN Model → Disease Classification → Treatment Plan
+    ↑            ↑               ↑                ↑                   ↑
+Upload     Resize (224x224)  Trained        Disease Name         Organic/
+Image      Normalization     Weights        Confidence Score     Chemical Solutions
+
+
+---
+
+## 📸 *Application Screenshots*
+
+### *🏠 Home Page - Main Dashboard*
+<p align="center">
+  <img src="images/home_dashboard.png" alt="Home Dashboard" width="900px">
+  <br>
+  <em>Figure 2: Smart Agriculture Dashboard - Main Interface with Navigation</em>
+</p>
+
+### *🌾 Crop Recommendation Module*
+<p align="center">
+  <img src="images/crop_input.png" alt="Crop Input Form" width="450px">
+  <img src="images/crop_result.png" alt="Crop Result" width="450px">
+  <br>
+  <em>Figure 3: Crop Recommendation - Input Form and Results</em>
+</p>
+
+### *🧪 Fertilizer Advisory Module*
+<p align="center">
+  <img src="images/fertilizer_input.png" alt="Fertilizer Input" width="450px">
+  <img src="images/fertilizer_result.png" alt="Fertilizer Result" width="450px">
+  <br>
+  <em>Figure 4: Fertilizer Advisory - NPK Analysis and Recommendations</em>
+</p>
+
+### *🍃 Plant Disease Detection Module*
+<p align="center">
+  <img src="images/disease_upload.png" alt="Disease Upload" width="450px">
+  <img src="images/disease_result.png" alt="Disease Result" width="450px">
+  <br>
+  <em>Figure 5: Disease Detection - Image Upload and Diagnosis Results</em>
+</p>
+
+### *📊 Analytics Dashboard*
+<p align="center">
+  <img src="images/analytics_1.png" alt="Analytics 1" width="450px">
+  <img src="images/analytics_2.png" alt="Analytics 2" width="450px">
+  <br>
+  <em>Figure 6: Analytics Dashboard - Data Visualization and Insights</em>
+</p>
+
+### *📱 Mobile Responsive Views*
+<p align="center">
+  <img src="images/mobile_1.png" alt="Mobile View 1" width="250px">
+  <img src="images/mobile_2.png" alt="Mobile View 2" width="250px">
+  <img src="images/mobile_3.png" alt="Mobile View 3" width="250px">
+  <br>
+  <em>Figure 7: Mobile-Responsive Interface on Different Devices</em>
+</p>
+
+### *📈 Model Performance Charts*
+<p align="center">
+  <img src="images/accuracy_chart.png" alt="Accuracy Chart" width="450px">
+  <img src="images/confusion_matrix.png" alt="Confusion Matrix" width="450px">
+  <br>
+  <em>Figure 8: Model Performance Metrics and Confusion Matrix</em>
+</p>
+
+### *🌍 Regional Language Support*
+<p align="center">
+  <img src="images/hindi_interface.png" alt="Hindi Interface" width="450px">
+  <img src="images/tamil_interface.png" alt="Tamil Interface" width="450px">
+  <br>
+  <em>Figure 9: Multi-language Support for Regional Farmers</em>
+</p>
+
+---
+
+## 🛠️ *Technologies Used*
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,keras,sklearn,streamlit,pandas,numpy,matplotlib,seaborn,flask,git,github,vscode,html,css" />
+</p>
+
+| Category | Technology | Purpose |
+|----------|------------|---------|
+| *Core Language* | Python 3.8+ | Primary programming language |
+| *Web Framework* | Streamlit | Interactive web application |
+| *Machine Learning* | Scikit-learn | Random Forest, Preprocessing |
+| *Deep Learning* | TensorFlow, Keras | CNN for disease detection |
+| *Data Processing* | Pandas, NumPy | Data manipulation and analysis |
+| *Visualization* | Matplotlib, Seaborn, Plotly | Charts and graphs |
+| *Image Processing* | OpenCV, PIL | Image preprocessing |
+| *Model Serialization* | Joblib, Pickle | Save/load trained models |
+| *Version Control* | Git, GitHub | Code management |
+| *Deployment* | Streamlit Cloud, Heroku | Web hosting |
+| *Development* | VS Code, Jupyter | IDE and notebooks |
+
+### *Key Libraries with Versions*
+python
+tensorflow==2.13.0
+keras==2.13.1
+scikit-learn==1.3.0
+streamlit==1.25.0
+pandas==2.0.3
+numpy==1.24.3
+opencv-python==4.8.0
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.15.0
+Pillow==10.0.0
+joblib==1.3.1
+
+
+---
+
 <p align="center">
 
 
