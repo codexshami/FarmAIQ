@@ -1,6 +1,6 @@
 <p align="center">
 
-# 🌱 Smart Agriculture Recommendation System
+# 🌱 FarmAIQ - Smart Agriculture Recommendation System
 
 </p>
 
