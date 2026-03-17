@@ -1,6 +1,10 @@
 <p align="center">
   
 # 🌱 **Smart Agriculture Recommendation System** 
+
+</p>
+<p align="center">
+  
 ### *Empowering Farmers with AI-Driven Insights for Sustainable Farming*
 
 </p>
