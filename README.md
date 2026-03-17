@@ -310,7 +310,7 @@ Pillow==10.0.0
 joblib==1.3.1
 
 ```
-### **Disease Detection Example:
+### Disease Detection Example:
 
 📥 INPUT: [Image of tomato leaf with spots]
 
@@ -323,6 +323,6 @@ joblib==1.3.1
   • Chemical: Mancozeb, Chlorothalonil
 ⚠️ Prevention: Crop rotation, resistant varieties
 
-### **Intallation 
+### Intallation 
 
 git clone https://github.com/codexshami/FarmAIQ.git && cd FarmAIQ && python -m venv venv && (venv\Scripts\activate || source venv/bin/activate) && pip install -r requirements.txt && streamlit run app.py
