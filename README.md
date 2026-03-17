@@ -1,7 +1,7 @@
-cat > README.md << 'EOF'
+<p align="center">
 # 🌱 **Smart Agriculture Recommendation System** 
 ### *Empowering Farmers with AI-Driven Insights for Sustainable Farming*
-
+</p>
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2E9C34&center=true&vCenter=true&width=600&lines=🌾+Intelligent+Crop+Recommendations;🧪+Smart+Fertilizer+Advisory;🍃+AI-Powered+Disease+Detection;📊+Data-Driven+Agriculture;🤖+Machine+Learning+for+Farming" alt="Typing SVG" />
 </p>
@@ -21,7 +21,12 @@ cat > README.md << 'EOF'
 
 ---
 
+<p align="center">
+  
 ## 📋 **Table of Contents**
+
+</p> 
+
 - [ Overview](#-overview)
 - [ Key Features](#-key-features)
 - [ Data Sources](#-data-sources)
@@ -40,13 +45,22 @@ cat > README.md << 'EOF'
 
 ---
 
+<p align="center">
+
 ## 🌟 **Overview**
+
+</p>
 
 Welcome to the **Smart Agriculture Recommendation System** – a cutting-edge Machine Learning solution designed to revolutionize traditional farming practices! This comprehensive system combines **crop recommendation**, **fertilizer advisory**, and **plant disease detection** to provide farmers with a complete agricultural decision support tool.
 
 > *"Transforming Indian Agriculture through Artificial Intelligence - One Farm at a Time"*
 
+<p align="center">
+  
 ### 🎯 **Problem Statement**
+
+</p>
+
 Indian farmers face multiple challenges in modern agriculture:
 - ❌ **Low Crop Yield** - Due to improper crop selection
 - ❌ **Soil Degradation** - From incorrect fertilizer usage
@@ -54,7 +68,12 @@ Indian farmers face multiple challenges in modern agriculture:
 - ❌ **Financial Losses** - Poor decisions affecting livelihood
 - ❌ **Knowledge Gap** - Limited access to agricultural expertise
 
+<p align="center">
+  
 ### 💡 **Our Solution**
+
+</p>
+
 An intelligent multi-modal recommendation engine that:
 
 | Feature | Solution | Impact |
@@ -64,8 +83,11 @@ An intelligent multi-modal recommendation engine that:
 | **🍃 Disease Detection** | Deep learning image analysis | 40% loss prevention |
 
 ---
-
+<p align="center">
+  
 ## ✨ **Key Features**
+
+</p>
 
 <p align="center">
   <img src="images/features_animation.gif" alt="Features Animation" width="600px">
@@ -91,8 +113,11 @@ An intelligent multi-modal recommendation engine that:
 - ✅ Instant diagnosis within seconds
 
 ---
-
+<p align="center">
+  
 ## 📊 **Data Sources**
+
+</p>
 
 Our system leverages high-quality datasets from trusted sources to ensure accurate predictions.
 
@@ -132,23 +157,38 @@ Our system leverages high-quality datasets from trusted sources to ensure accura
   - Soybean (1 disease)
 
 ---
+<p align="center">
 
+
+  
 ## 🧠 **Machine Learning Models**
+
+</p>
+
 
 ### **Model 1: Crop Recommendation - Random Forest Classifier**
 
 <p align="center">
   <img src="images/rf_visualization.png" alt="Random Forest Visualization" width="500px">
 </p>
-
+<p align="center">
+  
 #### **Architecture**
+
+</p>
+
 - **Algorithm**: Random Forest Classifier
 - **Number of Trees**: 100
 - **Max Depth**: 10
 - **Criterion**: Gini Impurity
 - **Cross-Validation**: 5-fold
 
+<p align="center">
+  
 #### **Input Parameters**
+
+</p>
+
 | Parameter | Description | Range |
 |-----------|-------------|-------|
 | **Nitrogen (N)** | Essential for leaf growth | 0-140 kg/ha |
@@ -164,8 +204,11 @@ Our system leverages high-quality datasets from trusted sources to ensure accura
 <p align="center">
   <img src="images/cnn_architecture.png" alt="CNN Architecture" width="700px">
 </p>
-
+<p align="center">
+  
 #### **Architecture Details**
+
+</p>
 
 Input Layer (224x224x3)
 ↓
