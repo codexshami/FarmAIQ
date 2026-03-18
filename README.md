@@ -25,29 +25,28 @@
 ---
 
 ## 📋 Overview
-
-Smart Agriculture Recommendation System ek AI-based application hai jo farmers ko help karta hai:
--  Best crop select karne me  
--  Sahi fertilizer choose karne me  
--  Plant disease detect karne me  
+A Smart Agriculture Recommendation System is an AI-based application that helps farmers by:
+• Selecting the best crop based on soil and environmental conditions
+• Choosing the most suitable fertilizer for better yield
+• Detecting plant diseases early to prevent crop damage
+It uses data and machine learning techniques to provide accurate and efficient farming recommendations.
 
 ---
 
 ## ✨ Key Features
 
-###  Crop Recommendation
-- Soil nutrients (N, P, K) analyze karta hai  
-- Weather conditions consider karta hai  
-- Best crop suggest karta hai  
+## 🌱 Crop Recommendation
+- Analyzes soil nutrients (N, P, K)
+- Considers weather conditions
+- Suggests the best crop to grow
 
-###  Fertilizer Advisory
-- Nutrient deficiency detect karta hai  
-- Suitable fertilizer recommend karta hai  
+## 🧪 Fertilizer Advisory
+- Detects nutrient deficiencies in the soil
+- Recommends suitable fertilizers
 
-###  Disease Detection
-- Leaf image se disease detect karta hai  
-- Treatment suggestions deta hai  
-
+## 🦠 Disease Detection
+- Detects plant diseases using leaf images
+- Provides treatment suggestions
 ---
 
 ## 📊 Technologies Used
@@ -93,8 +92,6 @@ streamlit run app.py
 http://localhost:8501
 
 ---
-
-## 📸 Screenshots
 
 ## 📸 Screenshots
 
@@ -161,8 +158,7 @@ This project is licensed under the MIT License.
 
 ## 🌟 Support
 
-Agar project pasand aaye to ⭐ star jarur dena!
-
+If you like this project, please give it a ⭐ star!
 ---
 
 <p align="center">
