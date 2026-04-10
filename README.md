@@ -24,7 +24,7 @@
 
 ---
 
-## 📋 Overview
+##  Overview
 A Smart Agriculture Recommendation System is an AI-based application that helps farmers by:
 • Selecting the best crop based on soil and environmental conditions
 • Choosing the most suitable fertilizer for better yield
@@ -33,7 +33,7 @@ It uses data and machine learning techniques to provide accurate and efficient f
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 ## 🌱 Crop Recommendation
 - Analyzes soil nutrients (N, P, K)
@@ -59,7 +59,7 @@ It uses data and machine learning techniques to provide accurate and efficient f
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 FarmAIQ/
@@ -74,7 +74,7 @@ FarmAIQ/
 
 ---
 
-## ⚙️ Installation (Single Command)
+##  Installation (Single Command)
 
 ```bash
 git clone https://github.com/codexshami/FarmAIQ.git && cd FarmAIQ && python -m venv venv && (venv\Scripts\activate || source venv/bin/activate) && pip install -r requirements.txt && streamlit run app.py
@@ -82,13 +82,13 @@ git clone https://github.com/codexshami/FarmAIQ.git && cd FarmAIQ && python -m v
 
 ---
 
-## 🚀 Run Application
+##  Run Application
 
 ```bash
 streamlit run app.py
 ```
 
-👉 Open in browser:  
+ Open in browser:  
 http://localhost:8501
 
 ---
@@ -134,14 +134,14 @@ http://localhost:8501
 
 ---
 
-## 📈 Performance
+##  Performance
 
 - Crop Recommendation Accuracy: **99%**  
 - Disease Detection Accuracy: **98%**  
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository  
 2. Create a new branch  
@@ -150,13 +150,13 @@ http://localhost:8501
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 🌟 Support
+##  Support
 
 If you like this project, please give it a ⭐ star!
 ---
